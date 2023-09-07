@@ -1,22 +1,11 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-
-.form-container{    
-    width: 50%;
-    height: 80vh;
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;   
-    align-items: center;
-}
-
 .carrusel{
     display: flex;
     flex-wrap: nowrap;
-    overflow: scroll;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* overflow: scroll; */
 }
 
 .elemento {
@@ -25,50 +14,30 @@
     width: 500px;
     height: 500px;
     justify-content: center;
-    margin-left: 25%;
-    margin-top: 10vh; 
-    color: gainsboro;   
+    margin-left: -50%;
+    margin-top: 5vh; 
+    color: black;  
+    margin-bottom: -350px; 
     }
 
-.evento1 {
+.imagenes{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center; 
+    align-items: center;
+    width: 70%;
+    overflow-x: hidden;
+    
+}
+    
+
+.evento {
     width: 300px;
     height: 300px;
     margin-top: 5vh;
     margin-right: 5%;
     margin-left: 5%;
-  transition: transform .2s; /* Animation */
-  
-}
-.evento1:hover {
-    transform: scale(1.5);
-    
-}
-
-.evento2{
-    width: 300px;
-    height: 300px;
-    margin-top: 5vh; 
     transition: transform .2s; 
+    cursor: pointer;
+      
 }
-.evento2:hover {
-    transform: scale(1.5);
-}
-.evento3{
-    width: 300px;
-    height: 300px;
-    margin-top: 5vh;
-    margin-right: 5%;
-    margin-left: 5%; 
-    transition: transform .2s; 
-}
-.evento3:hover {
-    transform: scale(1.5);}
-.evento4{
-    width: 300px;
-    height: 300px;
-    margin-top: 5vh; 
-    transition: transform .2s; 
-}
-.evento4:hover {
-    transform: scale(1.5);}
-

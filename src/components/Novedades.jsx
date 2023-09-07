@@ -34,15 +34,17 @@ export const Novedades = () => {
   }, [])
 
   return (
-  <div class="carrusel">
-    <div class="elemento">
+  <div className="carrusel">
+    <div className="elemento">
         <h1>No te pierdas de nuestro eventos</h1>
-    <img className="evento1" src={evento1}/>
-    <img className="evento2"src={evento2}/>
-    <img className="evento3"src={evento3}/>
-    <img className="evento4"src={evento4}/>
     </div>
-
+    <div className="imagenes">
+    <img className="evento" src={evento1}/>
+    <img className="evento"src={evento2}/>
+    <img className="evento"src={evento3}/>
+    <img className="evento"src={evento4}/>
+    </div>
+    
 
   </div>
   )
